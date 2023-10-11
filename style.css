@@ -113,6 +113,36 @@ img {
     background-color: whitesmoke;
 }
 
+/* tutorial nav */
+
+.tutorial-nav {
+    display: flex;
+}
+
+
+.tutorial-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tutorial-nav li {
+    float: left;
+}
+
+
+.tutorial-nav li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.tutorial-nav a:hover {
+    background-color: whitesmoke;
+}
+
+
 
 /* Other Project Reference Link */
 .other-projects{
@@ -145,8 +175,12 @@ img {
 }
 
 /* Copy Right Logo */
-.my-copyright{
+.my-copyright {
     text-align: center;
     font-size: 1em;
     color: black;
+}
+
+.float-right {
+    float: right;
 }
