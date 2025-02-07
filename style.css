@@ -14,13 +14,11 @@ body{
     width: 12px;
 }
 
-
 *::-webkit-scrollbar-thumb {
     background-color: lightgray;
     border-radius: 20px;
     border: 3px solid white;
 }
-  
 
 hr {
     background-color: whitesmoke;
@@ -54,7 +52,6 @@ img {
     background-color: whitesmoke;
 }
 
-
 /* Header */
 #my-title{
     font-size: 3em;
@@ -65,9 +62,7 @@ img {
     font-size: 1.5em;
 }
 
-
 /* Nav Bar */
-
 .my-nav a{
     color: black;
 }
@@ -114,11 +109,9 @@ img {
 }
 
 /* tutorial nav */
-
 .tutorial-nav {
     display: flex;
 }
-
 
 .tutorial-nav ul {
     list-style-type: none;
@@ -131,7 +124,6 @@ img {
     float: left;
 }
 
-
 .tutorial-nav li a {
     display: block;
     padding: 16px;
@@ -141,8 +133,6 @@ img {
 .tutorial-nav a:hover {
     background-color: whitesmoke;
 }
-
-
 
 /* Other Project Reference Link */
 .other-projects{
@@ -161,7 +151,6 @@ img {
     font-size: min(3.5vh, 3.5vw);
     float: left;
 }
-
 
 .other-projects li a {
     display: block;
@@ -183,4 +172,29 @@ img {
 
 .float-right {
     float: right;
+}
+
+.card .card-title {
+    font-size: 18px;
+    padding: 0px;
+}
+
+.card .card-content {
+    padding: 16px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    margin-right: 5px;
+}
+
+@media (min-width: 1400px) 
+{
+    .card .card-title {
+        font-size: 22px;
+    }
+
+    .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+        font-size: 14px;
+        margin-right: 10px;
+    }
 }
