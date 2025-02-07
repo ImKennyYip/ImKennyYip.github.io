@@ -180,10 +180,11 @@ img {
 }
 
 .card .card-content {
-    padding: 16px;
+    padding: 12px;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    font-size: 12px;
     margin-right: 5px;
 }
 
@@ -191,6 +192,10 @@ img {
 {
     .card .card-title {
         font-size: 22px;
+    }
+
+    .card .card-content {
+        padding: 16px;
     }
 
     .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
